@@ -8,31 +8,23 @@
   </head>
   <body>
     <header>
-      <h1>Praticando 1 - Cores e background-colors</h1>
-      <nav>
-        nav
-        <ul>
-          <li><a href="bloco-transparente">Bloco Transparente</a></li>
-          <li>
-            <a href="">Bloco <span style="background-color: red">Vermelho</span></a>
-          </li>
-          <li>
-            <a href="">Bloco <span style="background-color: green">Verde</span></a>
-          </li>
-          <li>
-            <a href="">Bloco <span style="background-color: blue; color: white;" >Azul</span></a>
-          </li>
-          <li>
-            <a href="">Bloco <span style="background-color: yellow">Amarelo</span></a>
-          </li>
-          <li>
-            <a href="">Bloco <span style="background-color: black; color: white">Preto</span></a>
-          </li>
+      <h1 style="color: black;">Praticando 1 - Cores e background-colors</h1>
+      <nav><section id="bloco-transparente">
+        <p style="color: black;">nav</p>
+        <ul style="color: black;">
+          <li><a href="#bloco-transparente">Bloco Transparente</a></li>
+          <li><a href="#bloco-vermelho">Bloco <span style="background-color: red">Vermelho</span></a></li>
+          <li><a href="#bloco-verde">Bloco <span style="background-color: green">Verde</span></a></li>
+          <li><a href="#bloco-azul">Bloco <span style="background-color: blue; color: white;">Azul</span></a></li>
+          <li><a href="#bloco-amarelo">Bloco <span style="background-color: yellow">Amarelo</span></a></li>
+          <li><a href="#bloco-preto">Bloco <span style="background-color: rgb(41, 39, 39); color: white">Preto</span></a></li>
         </ul>
       </nav>
+    </section>
     </header>
     <main>
       <section id="bloco-transparente">
+        <p style="color: black;">main</p>
         <h3>Bloco Transparente</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -48,11 +40,11 @@
         </p>
       </section>
       <section id="bloco-vermelho">
-        <h3>Bloco Vermelho</h3>
+        <h3>Bloco <span style="background-color: rgb(255, 0, 0);">Vermelho</span></h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
           eos labore perferendis dicta ratione corrupti excepturi explicabo,
-          libero suscipit. Iusto labore quaerat iste, sunt porro quia ex maxime!
+          libero suscipit. <span style="background-color: rgb(255, 0, 0);"> Iusto labore quaerat iste, sunt porrosunt </span> porro quia ex maxime!
           Veritatis, illum!
         </p>
         <p>
@@ -62,11 +54,11 @@
         </p>
       </section>
       <section id="bloco-verde">
-        <h3>Bloco Verde</h3>
+        <h3>Bloco <span style="background-color: rgb(1, 41, 11);">Verde</span></h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
           quod neque dolorem ipsam ratione nisi odit blanditiis maxime. Aperiam
-          fuga rerum debitis! Nulla debitis aliquam beatae! Error voluptates
+          fuga rerum debitis! <span style="background-color: rgb(1, 41, 11);"> ulla debitis aliquam beatae! Error voluptates</span>
           reiciendis facere!
         </p>
         <p>
@@ -77,14 +69,14 @@
         </p>
       </section>
       <section id="bloco-azul">
-        <h3>Bloco Azul</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          quod neque dolorem ipsam ratione nisi odit blanditiis maxime. Aperiam
+        <h3 style="color: white;">Bloco <span style="background-color: rgb(8, 0, 124);">Azul</span></h3>
+        <p style="color: white;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="background-color: rgb(8, 0, 124);"> Asperiores
+          quod neque dolorem ipsam ratione nisi odit blanditiis maxime.</span> Aperiam
           fuga rerum debitis! Nulla debitis aliquam beatae! Error voluptates
           reiciendis facere!
         </p>
-        <p>
+        <p style="color: white";>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
           optio necessitatibus quas hic saepe nulla quae, exercitationem rerum
           asperiores reiciendis adipisci iste facere maxime. Adipisci iste
@@ -92,10 +84,10 @@
         </p>
       </section>
       <section id="bloco-amarelo">
-        <h3>Bloco Amarelo</h3>
+        <h3>Bloco <span style="background-color: rgb(255, 251, 0);">Amarelo</span></h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          quod neque dolorem ipsam ratione nisi odit blanditiis maxime. Aperiam
+          quod neque <span style="background-color: rgb(255, 251, 0);">dolorem ipsam ratione nisi odit blanditiis maxime.</span>Aperiam
           fuga rerum debitis! Nulla debitis aliquam beatae! Error voluptates
           reiciendis facere!
         </p>
@@ -106,13 +98,13 @@
           expedita at numquam autem!
         </p>
       </section>
-      <section id="bloco-transparente">
+      <section id="bloco-preto">
         <h3 style="color: white;">Bloco <span style="background-color: black;">Preto</span></h3>
         <p style="color: white;">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
           quod neque dolorem ipsam ratione nisi odit blanditiis maxime. Aperiam
-          fuga rerum debitis! Nulla debitis aliquam beatae! Error voluptates
-          reiciendis facere!
+          fuga rerum debitis! <span style="background-color: black;">Nulla debitis aliquam beatae! Error voluptates
+          reiciendis facere!</span>
         </p>
         <p style="color: white;">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
