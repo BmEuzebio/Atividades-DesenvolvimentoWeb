@@ -1,23 +1,35 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: lightgrey;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
 }
-.bloco-transparente{
-    background-color: gray;
+
+#bloco-transparente {
+  background-color: gray;
+  color: black;
 }
-.bloco-vermelho{
-    background-color: red;
+
+#bloco-vermelho {
+  background-color: rgb(172, 62, 62);
+  color: black;
 }
-.bloco-verde{
-    background-color: green;
+
+#bloco-verde {
+  background-color: green;
+  color: black;
 }
-.bloco-azul{
-    background-color: lightblue;
+
+#bloco-azul {
+  background-color: lightblue;
+  /* cor padrão de texto (preta) */
 }
-.bloco-amarelo{
-    background-color: lightyellow;
+
+#bloco-amarelo {
+  background-color: lightyellow;
+  color: black;
 }
-.faixa-cinza{
-    background-color: gray;
+
+#bloco-preto {
+  background-color: rgb(51, 43, 43);
+  /* texto já está branco inline no HTML */
 }
